@@ -37,18 +37,6 @@ A multimodal AI-powered medical chatbot that enables patients to interact using 
 
 ---
 
-## 📦 Project Structure
-
-ai-doctor-2.0/
-├── app.py # Main logic for Gradio interface
-├── llm_inference.py # GROQ + LLaMA 3 Vision call logic
-├── speech_utils.py # Whisper STT and TTS integration
-├── image_utils.py # Image preprocessing
-├── requirements.txt
-└── README.md
-
----
-
 ## 📈 Future Improvements
 
 - Finetune vision model on medical datasets
