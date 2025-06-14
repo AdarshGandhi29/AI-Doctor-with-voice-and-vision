@@ -39,7 +39,11 @@ def process_inputs(audio_filepath, image_filepath):
         doctor_response = analyze_image_with_query(
             query=system_prompt + " " + speech_to_text_output, 
             encoded_image=encoded_image, 
+<<<<<<< HEAD
             model="meta-llama/llama-4-scout-17b-16e-instruct"
+=======
+            model="llama-3.2-11b-vision-preview"
+>>>>>>> 2601419a19a234a7f4f280fbc874a0a3702c70b1
         )
     else:
         doctor_response = "No image provided for analysis."
