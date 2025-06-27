@@ -44,7 +44,15 @@ def analyze_image_with_query(query, model, encoded_image):
 if __name__ == "__main__":
     # Define parameters
     query = "Can you analyze my face and tell me if I have acne or any skin condition? Provide advice if needed."
+<<<<<<< HEAD
     model="meta-llama/llama-4-scout-17b-16e-instruct"
+=======
+<<<<<<< HEAD
+    model = "meta-llama/llama-4-scout-17b-16e-instruct"
+=======
+    model = "llama-3.2-90b-vision-preview"
+>>>>>>> 2601419a19a234a7f4f280fbc874a0a3702c70b1
+>>>>>>> ab021e72601bc7d175a1836aea1a7b9601cf9d9d
     image_path = "C:/AI-Doctor-with-voice-and-vision/acne.jpg"
     
     # Encode Image & Run Analysis
